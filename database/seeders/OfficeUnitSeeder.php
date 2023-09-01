@@ -17,7 +17,7 @@ class OfficeUnitSeeder extends Seeder
             'name' => 'Information Technology Management Section',
             'acronym' => 'ITMS',
             'code' => '001',
-            'division_id' => 1,
+            'section_id' => 1,
         ]);
     }
 }

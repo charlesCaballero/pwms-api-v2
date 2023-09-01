@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\OfficeDivisions;
 use Illuminate\Database\Seeder;
 
 class OfficeDivisionSeeder extends Seeder
@@ -13,5 +13,10 @@ class OfficeDivisionSeeder extends Seeder
     public function run(): void
     {
         //
+        OfficeDivisions::insert([
+            'name' => 'Information Technology Management Section',
+            'acronym' => 'ITMS',
+            'code' => '001',
+        ]);
     }
 }
